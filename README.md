@@ -36,8 +36,10 @@ Server start:
 ```
 http://127.0.0.1:5000
 ```
-API Endpoints
+API Endpoints:
+```
 MethodEndpointDescriptionGET/Game pageGET/leaderboardTop scores pagePOST/save-scoreScore save karo (JSON)GET/api/scoresScores JSON format mein
+```
 ---
 POST /save-score — Request Body
 json{
@@ -45,10 +47,12 @@ json{
   "score": 250
 }
 GET /api/scores — Response
+```
 json[
   { "player": "Abdullah",   "score": 250, "date": "2026-06-01 10:30:00" },
   { "player": "Sara",  "score": 180, "date": "2026-06-01 09:15:00" }
 ]
+```
 
 
 ## Tech Stack
